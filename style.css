@@ -26,4 +26,17 @@ a {
 
 }
 
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 
