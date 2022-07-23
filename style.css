@@ -6,11 +6,14 @@ body {
 .header {
     background-color: #1F2937;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 400px;
 }
 
 .logo-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-top: 15px;
 }
@@ -22,15 +25,15 @@ body {
 
 a {
     text-decoration: none;
-    color: #f9faf8;
+    color: #E5E7EB;
     margin-right: 20px;
 
 }
 
 .header-content {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .main-header-content {
@@ -68,6 +71,17 @@ button.header-button {
     color: #f9faf8;
     font-weight: 700;
     border-style: solid;
+}
+
+.header-image-placeholder {
+    width: 500px;
+    height: 250px;
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: white;
 }
 
 
