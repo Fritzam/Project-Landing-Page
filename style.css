@@ -5,13 +5,14 @@ body {
 
 .header {
     background-color: #1F2937;
-    height: 400px;
+    height: 500px;
 }
 
 .logo-links {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 15px;
 }
 .logo-text {
     font-size: 24px;
@@ -36,7 +37,41 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    width: 520px;
 }
+
+#hp1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 1000;
+}
+
+#hp2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+button.header-button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px;
+    width: 110px;
+    color: #f9faf8;
+    font-weight: 700;
+    border-style: solid;
+}
+
+
+
+
 
 
