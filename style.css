@@ -87,9 +87,14 @@ button.header-button {
     color: white;
 }
 
-.inspiring-quote-container {
+.inspiring-quote-section {
     background-color: #E5E7EB;
     height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .main {
@@ -115,7 +120,6 @@ button.header-button {
     justify-content: flex-start;
     height: 400px;
     padding-top: 20px;
-
 }
 
 .boxes{
@@ -125,8 +129,6 @@ button.header-button {
     align-items: center;
     gap: 80px;
     margin-top: 30px;
-
-
 }
 
 .image-box {
@@ -156,6 +158,23 @@ button.header-button {
     padding: 0 5px;
 }
 
+.inspiring-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
 
+.inspiring-quote-container {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-
+.author {
+    font-size: 36px;
+    color: #1F2937;
+    align-self: flex-end;
+    margin-right: 40px;
+}
