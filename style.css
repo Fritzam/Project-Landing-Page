@@ -89,7 +89,7 @@ button.header-button {
 
 .inspiring-quote-section {
     background-color: #E5E7EB;
-    height: 350px;
+    height: 450px;
     width: 100%;
     display: flex;
     flex-direction: center;
@@ -118,8 +118,8 @@ button.header-button {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 400px;
-    padding-top: 20px;
+    height: 500px;
+    padding-top: 30px;
 }
 
 .boxes{
