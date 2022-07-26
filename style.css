@@ -87,13 +87,17 @@ button.header-button {
     color: white;
 }
 
-.inspiring-quote-div {
-    background-color: #E5E7EB
+.inspiring-quote-container {
+    background-color: #E5E7EB;
+    height: 350px;
 }
 
 .main {
     border: solid lightblue 5px;
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
@@ -151,4 +155,7 @@ button.header-button {
     align-items: center;
     padding: 0 5px;
 }
+
+
+
 
