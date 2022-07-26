@@ -111,7 +111,7 @@ button.header-button {
     align-items: center;
     justify-content: flex-start;
     height: 300px;
-    padding-top:20px;
+    padding-top: 20px;
 
 }
 
@@ -120,15 +120,15 @@ button.header-button {
     border: solid 4px burlywood;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 80px;
 
 
 }
 
 .image-box {
-    width: 125px;
-    height: 125px;
-    border: solid lightskyblue 5px;
+    width: 168px;
+    height: 168px;
+    border: solid #3882F6 5px;
     border-radius: 10px;
 }
 
